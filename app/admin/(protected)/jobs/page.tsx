@@ -1,9 +1,27 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { getAllJobsRaw } from "@/lib/db";
+import mongoose from "mongoose";
 import { deleteJobAction, toggleExpiredAction, toggleFeaturedAction } from "@/lib/actions";
 
 export const metadata: Metadata = { title: "Manage Jobs", robots: { index: false, follow: false } };
+
+async function connectDB() {
+  if (mongoose.connection.readyState >= 1) return;
+  await mongoose.connect(process.env.MONGODB_URI!);
+}
+
+const JobSchema = new mongoose.Schema({
+  title: String,
+  organization: String,
+  slug: String,
+  status: String,
+  featured: Boolean,
+  views: Number,
+  dates: { lastDate: Date },
+  createdAt: { type: Date, default: Date.now }
+});
+
+const Job = mongoose.models.Job || mongoose.model("Job", JobSchema);
 
 function statusPill(status: string) {
   const map: Record<string, string> = {
@@ -15,14 +33,26 @@ function statusPill(status: string) {
   return map[status] || "bg-ink-900/5 text-ink-700";
 }
 
-export default function ManageJobsPage({
+export default async function ManageJobsPage({
   searchParams,
 }: {
   searchParams: { created?: string; updated?: string };
 }) {
-  const jobs = getAllJobsRaw().sort(
-    (a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
-  );
+  await connectDB();
+  // @ts-ignore
+  const rawJobs = await Job.find({}).sort({ createdAt: -1 }).lean();
+  
+  const jobs = rawJobs.map((job: any) => ({
+    id: job._id.toString(),
+    title: job.title,
+    organization: job.organization,
+    slug: job.slug,
+    status: job.status,
+    featured: job.featured,
+    views: job.views || 0,
+    dates: { lastDate: job.dates?.lastDate || new Date() },
+    createdAt: job.createdAt
+  }));
 
   return (
     <div>
