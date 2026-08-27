@@ -21,6 +21,7 @@ const Job = mongoose.models.Job || mongoose.model('Job', JobSchema);
 export async function GET() {
   try {
     await connectDB();
+    // @ts-ignore
     const jobs = await Job.find({}).sort({ createdAt: -1 });
     return NextResponse.json({ success: true, data: jobs });
   } catch (error: any) {
@@ -32,6 +33,7 @@ export async function POST(req: Request) {
   try {
     await connectDB();
     const body = await req.json();
+    // @ts-ignore
     const job = await Job.create(body);
     return NextResponse.json({ success: true, data: job }, { status: 201 });
   } catch (error: any) {
