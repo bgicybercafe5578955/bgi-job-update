@@ -16,7 +16,7 @@ const JobSchema = new mongoose.Schema({
   createdAt: { type: Date, default: Date.now }
 });
 
-const Job = mongoose.models.Job || mongoose.model('Job', JobSchema);
+const Job = (mongoose.models.Job || mongoose.model('Job', JobSchema)) as any;
 
 export async function GET(req: Request, context: any) {
   try {
