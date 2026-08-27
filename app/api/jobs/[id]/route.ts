@@ -18,12 +18,13 @@ const JobSchema = new mongoose.Schema({
 
 const Job = mongoose.models.Job || mongoose.model('Job', JobSchema);
 
-export async function GET(req: Request, props: { params: Promise<{ id: string }> }) {
+export async function GET(req: Request) {
   try {
     await connectDB();
-    const params = await props.params;
+    const url = new URL(req.url);
+    const id = url.pathname.split('/').pop();
     // @ts-ignore
-    const job = await Job.findById(params.id);
+    const job = await Job.findById(id);
     if (!job) return NextResponse.json({ success: false, error: 'Job not found' }, { status: 404 });
     return NextResponse.json({ success: true, data: job });
   } catch (error: any) {
@@ -31,25 +32,27 @@ export async function GET(req: Request, props: { params: Promise<{ id: string }>
   }
 }
 
-export async function PUT(req: Request, props: { params: Promise<{ id: string }> }) {
+export async function PUT(req: Request) {
   try {
     await connectDB();
-    const params = await props.params;
+    const url = new URL(req.url);
+    const id = url.pathname.split('/').pop();
     const body = await req.json();
     // @ts-ignore
-    const updatedJob = await Job.findByIdAndUpdate(params.id, body, { new: true });
+    const updatedJob = await Job.findByIdAndUpdate(id, body, { new: true });
     return NextResponse.json({ success: true, data: updatedJob });
   } catch (error: any) {
     return NextResponse.json({ success: false, error: error.message }, { status: 500 });
   }
 }
 
-export async function DELETE(req: Request, props: { params: Promise<{ id: string }> }) {
+export async function DELETE(req: Request) {
   try {
     await connectDB();
-    const params = await props.params;
+    const url = new URL(req.url);
+    const id = url.pathname.split('/').pop();
     // @ts-ignore
-    await Job.findByIdAndDelete(params.id);
+    await Job.findByIdAndDelete(id);
     return NextResponse.json({ success: true, message: 'Job deleted successfully' });
   } catch (error: any) {
     return NextResponse.json({ success: false, error: error.message }, { status: 500 });
