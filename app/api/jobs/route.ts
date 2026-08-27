@@ -40,3 +40,21 @@ export async function POST(req: Request) {
     return NextResponse.json({ success: false, error: error.message }, { status: 500 });
   }
 }
+
+export async function DELETE(req: Request) {
+  try {
+    await connectDB();
+    const url = new URL(req.url);
+    const id = url.searchParams.get('id') || url.pathname.split('/').pop();
+    
+    if (!id || id === 'jobs') {
+      return NextResponse.json({ success: false, error: 'Job ID is required' }, { status: 400 });
+    }
+
+    // @ts-ignore
+    await Job.findByIdAndDelete(id);
+    return NextResponse.json({ success: true, message: 'Job deleted successfully' });
+  } catch (error: any) {
+    return NextResponse.json({ success: false, error: error.message }, { status: 500 });
+  }
+}
