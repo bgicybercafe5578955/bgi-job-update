@@ -45,14 +45,28 @@ export async function DELETE(req: Request) {
   try {
     await connectDB();
     const url = new URL(req.url);
-    const id = url.searchParams.get('id') || url.pathname.split('/').pop();
-    
-    if (!id || id === 'jobs') {
-      return NextResponse.json({ success: false, error: 'Job ID is required' }, { status: 400 });
+    let id = url.searchParams.get('id');
+
+    // Agar URL query mein ID nahi hai, toh body se lene ki koshish karo
+    if (!id) {
+      try {
+        const body = await req.json();
+        id = body.id;
+      } catch (e) {
+        // Body parse na ho toh ignore karo
+      }
+    }
+
+    if (!id) {
+      return NextResponse.json({ success: false, error: 'Job ID is missing for deletion' }, { status: 400 });
     }
 
     // @ts-ignore
-    await Job.findByIdAndDelete(id);
+    const deletedJob = await Job.findByIdAndDelete(id);
+    if (!deletedJob) {
+      return NextResponse.json({ success: false, error: 'Job not found' }, { status: 404 });
+    }
+
     return NextResponse.json({ success: true, message: 'Job deleted successfully' });
   } catch (error: any) {
     return NextResponse.json({ success: false, error: error.message }, { status: 500 });
