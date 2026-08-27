@@ -16,12 +16,13 @@ const JobSchema = new mongoose.Schema({
   createdAt: { type: Date, default: Date.now }
 });
 
-const Job = (mongoose.models.Job || mongoose.model('Job', JobSchema)) as any;
+const Job = mongoose.models.Job || mongoose.model('Job', JobSchema);
 
-export async function GET(req: Request, context: any) {
+export async function GET(req: Request, props: { params: Promise<{ id: string }> }) {
   try {
     await connectDB();
-    const params = await context.params;
+    const params = await props.params;
+    // @ts-ignore
     const job = await Job.findById(params.id);
     if (!job) return NextResponse.json({ success: false, error: 'Job not found' }, { status: 404 });
     return NextResponse.json({ success: true, data: job });
@@ -30,11 +31,12 @@ export async function GET(req: Request, context: any) {
   }
 }
 
-export async function PUT(req: Request, context: any) {
+export async function PUT(req: Request, props: { params: Promise<{ id: string }> }) {
   try {
     await connectDB();
-    const params = await context.params;
+    const params = await props.params;
     const body = await req.json();
+    // @ts-ignore
     const updatedJob = await Job.findByIdAndUpdate(params.id, body, { new: true });
     return NextResponse.json({ success: true, data: updatedJob });
   } catch (error: any) {
@@ -42,10 +44,11 @@ export async function PUT(req: Request, context: any) {
   }
 }
 
-export async function DELETE(req: Request, context: any) {
+export async function DELETE(req: Request, props: { params: Promise<{ id: string }> }) {
   try {
     await connectDB();
-    const params = await context.params;
+    const params = await props.params;
+    // @ts-ignore
     await Job.findByIdAndDelete(params.id);
     return NextResponse.json({ success: true, message: 'Job deleted successfully' });
   } catch (error: any) {
