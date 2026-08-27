@@ -3,6 +3,8 @@ import Link from "next/link";
 import mongoose from "mongoose";
 import { deleteJobAction, toggleExpiredAction, toggleFeaturedAction } from "@/lib/actions";
 
+export const dynamic = 'force-dynamic';
+
 export const metadata: Metadata = { title: "Manage Jobs", robots: { index: false, follow: false } };
 
 async function connectDB() {
