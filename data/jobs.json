@@ -1,0 +1,996 @@
+[
+  {
+    "id": "job_0001",
+    "slug": "maharashtra-police-constable-recruitment-2026-maharashtra-police-department",
+    "title": "Maharashtra Police Constable Recruitment 2026",
+    "organization": "Maharashtra Police Department",
+    "department": "Home Department, Government of Maharashtra",
+    "advertisementNumber": "MAHA-POL/2026/07",
+    "logoUrl": "",
+    "totalVacancies": 8200,
+    "vacancyBreakdown": [
+      {
+        "post": "Police Constable",
+        "category": "Open: 3200, OBC: 1800, SC: 900, ST: 700, EWS: 600",
+        "count": 7200
+      },
+      {
+        "post": "Police Driver Constable",
+        "category": "Open: 500, OBC: 300, SC: 100, ST: 100",
+        "count": 1000
+      }
+    ],
+    "location": {
+      "state": "Maharashtra",
+      "district": "State-wide",
+      "allIndia": false
+    },
+    "eligibility": {
+      "genders": [
+        "male",
+        "female"
+      ],
+      "categories": [
+        "open",
+        "obc",
+        "sc",
+        "st",
+        "ews"
+      ],
+      "qualifications": [
+        "12th"
+      ],
+      "minAge": 18,
+      "maxAge": 28,
+      "ageRelaxation": "5 years relaxation for OBC/SC/ST, 10 years for PwBD candidates as per government norms."
+    },
+    "jobType": "government",
+    "salary": "₹29,200 – ₹92,300 (Pay Level 5)",
+    "applicationFee": "₹450 (Open/OBC/EWS), ₹350 (SC/ST)",
+    "dates": {
+      "startDate": "2026-08-16",
+      "lastDate": "2026-09-07",
+      "examDate": "2026-10-25"
+    },
+    "links": {
+      "applyOnline": "https://example.gov.in/apply",
+      "officialNotification": "https://example.gov.in/notification.pdf",
+      "officialWebsite": "https://example.gov.in"
+    },
+    "content": {
+      "eligibility": "<p>Candidates must fulfil the eligibility criteria for <strong>Maharashtra Police Constable Recruitment 2026</strong> as prescribed by Maharashtra Police Department. Please read the official notification carefully before applying.</p>",
+      "vacancyDetails": "<p>Total <strong>8,200</strong> vacancies are to be filled under this recruitment drive. Post-wise and category-wise break-up is given in the table above.</p>",
+      "selectionProcess": "<ol><li>Online Application</li><li>Written / Computer Based Test</li><li>Physical Standard &amp; Efficiency Test (if applicable)</li><li>Document Verification</li><li>Medical Examination</li><li>Final Merit List</li></ol>",
+      "howToApply": "<p>Eligible candidates may apply online through the official website before the last date. Keep scanned copies of photograph, signature and certificates ready before starting the application.</p>",
+      "importantInstructions": "<ul><li>Read the official notification carefully before applying.</li><li>Ensure you meet the age and qualification criteria on the prescribed date.</li><li>Application fee once paid is non-refundable.</li><li>Keep a printout of the submitted application for future reference.</li></ul>"
+    },
+    "seo": {
+      "title": "Maharashtra Police Constable Recruitment 2026 | Apply Online, Eligibility, Last Date",
+      "metaDescription": "Maharashtra Police Constable Recruitment 2026 - 8,200 vacancies. Check eligibility, qualification, age limit, application fee and last date to apply online."
+    },
+    "featured": true,
+    "status": "published",
+    "publishAt": null,
+    "createdAt": "2026-08-16T15:23:59.171Z",
+    "updatedAt": "2026-08-16T15:23:59.171Z",
+    "views": 5280
+  },
+  {
+    "id": "job_0002",
+    "slug": "ssc-cgl-combined-graduate-level-exam-2026-staff-selection-commission",
+    "title": "SSC CGL Combined Graduate Level Exam 2026",
+    "organization": "Staff Selection Commission",
+    "department": "Ministry of Personnel, Public Grievances and Pensions, Govt. of India",
+    "advertisementNumber": "SSC-CGL/2026/01",
+    "logoUrl": "",
+    "totalVacancies": 17727,
+    "vacancyBreakdown": [
+      {
+        "post": "Assistant Audit Officer",
+        "category": "Open: 1400, OBC: 780, SC: 420, ST: 210, EWS: 350",
+        "count": 3160
+      },
+      {
+        "post": "Inspector (Central Excise)",
+        "category": "Open: 2200, OBC: 1200, SC: 640, ST: 320, EWS: 550",
+        "count": 4910
+      },
+      {
+        "post": "Junior Statistical Officer",
+        "category": "Open: 2900, OBC: 1600, SC: 860, ST: 430, EWS: 720",
+        "count": 6510
+      }
+    ],
+    "location": {
+      "state": "All India",
+      "allIndia": true
+    },
+    "eligibility": {
+      "genders": [
+        "male",
+        "female"
+      ],
+      "categories": [
+        "open",
+        "obc",
+        "sc",
+        "st",
+        "ews"
+      ],
+      "qualifications": [
+        "graduate",
+        "any_graduate"
+      ],
+      "minAge": 18,
+      "maxAge": 32,
+      "ageRelaxation": "As per Government of India norms for reserved categories."
+    },
+    "jobType": "government",
+    "salary": "₹35,400 – ₹1,12,400 (Pay Level 6/7)",
+    "applicationFee": "₹100 (Male, General/OBC); Free for Female/SC/ST/EWS/PwBD",
+    "dates": {
+      "startDate": "2026-08-06",
+      "lastDate": "2026-08-31",
+      "examDate": "2026-11-04"
+    },
+    "links": {
+      "applyOnline": "https://example.gov.in/apply",
+      "officialNotification": "https://example.gov.in/notification.pdf",
+      "officialWebsite": "https://example.gov.in"
+    },
+    "content": {
+      "eligibility": "<p>Candidates must fulfil the eligibility criteria for <strong>SSC CGL Combined Graduate Level Exam 2026</strong> as prescribed by Staff Selection Commission. Please read the official notification carefully before applying.</p>",
+      "vacancyDetails": "<p>Total <strong>17,727</strong> vacancies are to be filled under this recruitment drive. Post-wise and category-wise break-up is given in the table above.</p>",
+      "selectionProcess": "<ol><li>Online Application</li><li>Written / Computer Based Test</li><li>Physical Standard &amp; Efficiency Test (if applicable)</li><li>Document Verification</li><li>Medical Examination</li><li>Final Merit List</li></ol>",
+      "howToApply": "<p>Eligible candidates may apply online through the official website before the last date. Keep scanned copies of photograph, signature and certificates ready before starting the application.</p>",
+      "importantInstructions": "<ul><li>Read the official notification carefully before applying.</li><li>Ensure you meet the age and qualification criteria on the prescribed date.</li><li>Application fee once paid is non-refundable.</li><li>Keep a printout of the submitted application for future reference.</li></ul>"
+    },
+    "seo": {
+      "title": "SSC CGL Combined Graduate Level Exam 2026 | Apply Online, Eligibility, Last Date",
+      "metaDescription": "SSC CGL Combined Graduate Level Exam 2026 - 17,727 vacancies. Check eligibility, qualification, age limit, application fee and last date to apply online."
+    },
+    "featured": true,
+    "status": "published",
+    "publishAt": null,
+    "createdAt": "2026-08-06T15:23:59.171Z",
+    "updatedAt": "2026-08-06T15:23:59.171Z",
+    "views": 8009
+  },
+  {
+    "id": "job_0003",
+    "slug": "zilla-parishad-pune-anganwadi-sevika-bharti-2026-zilla-parishad-pune",
+    "title": "Zilla Parishad Pune - Anganwadi Sevika Bharti 2026",
+    "organization": "Zilla Parishad Pune",
+    "department": "Women & Child Development Department",
+    "advertisementNumber": "ZP-PUNE/WCD/2026/03",
+    "logoUrl": "",
+    "totalVacancies": 145,
+    "vacancyBreakdown": [
+      {
+        "post": "Anganwadi Sevika",
+        "category": "Open: 60, OBC: 35, SC: 20, ST: 18, EWS: 12",
+        "count": 145
+      }
+    ],
+    "location": {
+      "state": "Maharashtra",
+      "district": "Pune",
+      "allIndia": false
+    },
+    "eligibility": {
+      "genders": [
+        "female"
+      ],
+      "categories": [
+        "open",
+        "obc",
+        "sc",
+        "st",
+        "ews"
+      ],
+      "qualifications": [
+        "10th",
+        "12th"
+      ],
+      "minAge": 18,
+      "maxAge": 40
+    },
+    "jobType": "government",
+    "salary": "Honorarium ₹10,000 per month",
+    "applicationFee": "₹200",
+    "dates": {
+      "startDate": "2026-08-21",
+      "lastDate": "2026-09-15"
+    },
+    "links": {
+      "applyOnline": "https://example.gov.in/apply",
+      "officialNotification": "https://example.gov.in/notification.pdf",
+      "officialWebsite": "https://example.gov.in"
+    },
+    "content": {
+      "eligibility": "<p>Candidates must fulfil the eligibility criteria for <strong>Zilla Parishad Pune - Anganwadi Sevika Bharti 2026</strong> as prescribed by Zilla Parishad Pune. Please read the official notification carefully before applying.</p>",
+      "vacancyDetails": "<p>Total <strong>145</strong> vacancies are to be filled under this recruitment drive. Post-wise and category-wise break-up is given in the table above.</p>",
+      "selectionProcess": "<ol><li>Online Application</li><li>Written / Computer Based Test</li><li>Physical Standard &amp; Efficiency Test (if applicable)</li><li>Document Verification</li><li>Medical Examination</li><li>Final Merit List</li></ol>",
+      "howToApply": "<p>Eligible candidates may apply online through the official website before the last date. Keep scanned copies of photograph, signature and certificates ready before starting the application.</p>",
+      "importantInstructions": "<ul><li>Read the official notification carefully before applying.</li><li>Ensure you meet the age and qualification criteria on the prescribed date.</li><li>Application fee once paid is non-refundable.</li><li>Keep a printout of the submitted application for future reference.</li></ul>"
+    },
+    "seo": {
+      "title": "Zilla Parishad Pune - Anganwadi Sevika Bharti 2026 | Apply Online, Eligibility, Last Date",
+      "metaDescription": "Zilla Parishad Pune - Anganwadi Sevika Bharti 2026 - 145 vacancies. Check eligibility, qualification, age limit, application fee and last date to apply online."
+    },
+    "featured": false,
+    "status": "published",
+    "publishAt": null,
+    "createdAt": "2026-08-21T15:23:59.171Z",
+    "updatedAt": "2026-08-21T15:23:59.171Z",
+    "views": 3859
+  },
+  {
+    "id": "job_0004",
+    "slug": "indian-army-agniveer-recruitment-rally-2026-indian-army",
+    "title": "Indian Army Agniveer Recruitment Rally 2026",
+    "organization": "Indian Army",
+    "department": "Ministry of Defence, Government of India",
+    "advertisementNumber": "ARMY/AGNIVEER/2026/PUNE",
+    "logoUrl": "",
+    "totalVacancies": 4000,
+    "vacancyBreakdown": [
+      {
+        "post": "Agniveer General Duty",
+        "category": "Open to all categories",
+        "count": 2600
+      },
+      {
+        "post": "Agniveer Technical",
+        "category": "Open to all categories",
+        "count": 1400
+      }
+    ],
+    "location": {
+      "state": "Maharashtra",
+      "district": "Pune",
+      "allIndia": false
+    },
+    "eligibility": {
+      "genders": [
+        "male"
+      ],
+      "categories": [
+        "open",
+        "obc",
+        "sc",
+        "st",
+        "ews"
+      ],
+      "qualifications": [
+        "10th",
+        "12th"
+      ],
+      "minAge": 17,
+      "maxAge": 21
+    },
+    "jobType": "government",
+    "salary": "₹30,000 per month (package, first year)",
+    "applicationFee": "Nil",
+    "dates": {
+      "startDate": "2026-08-11",
+      "lastDate": "2026-08-29"
+    },
+    "links": {
+      "applyOnline": "https://example.gov.in/apply",
+      "officialNotification": "https://example.gov.in/notification.pdf",
+      "officialWebsite": "https://example.gov.in"
+    },
+    "content": {
+      "eligibility": "<p>Candidates must fulfil the eligibility criteria for <strong>Indian Army Agniveer Recruitment Rally 2026</strong> as prescribed by Indian Army. Please read the official notification carefully before applying.</p>",
+      "vacancyDetails": "<p>Total <strong>4,000</strong> vacancies are to be filled under this recruitment drive. Post-wise and category-wise break-up is given in the table above.</p>",
+      "selectionProcess": "<ol><li>Online Application</li><li>Written / Computer Based Test</li><li>Physical Standard &amp; Efficiency Test (if applicable)</li><li>Document Verification</li><li>Medical Examination</li><li>Final Merit List</li></ol>",
+      "howToApply": "<p>Eligible candidates may apply online through the official website before the last date. Keep scanned copies of photograph, signature and certificates ready before starting the application.</p>",
+      "importantInstructions": "<ul><li>Read the official notification carefully before applying.</li><li>Ensure you meet the age and qualification criteria on the prescribed date.</li><li>Application fee once paid is non-refundable.</li><li>Keep a printout of the submitted application for future reference.</li></ul>"
+    },
+    "seo": {
+      "title": "Indian Army Agniveer Recruitment Rally 2026 | Apply Online, Eligibility, Last Date",
+      "metaDescription": "Indian Army Agniveer Recruitment Rally 2026 - 4,000 vacancies. Check eligibility, qualification, age limit, application fee and last date to apply online."
+    },
+    "featured": true,
+    "status": "published",
+    "publishAt": null,
+    "createdAt": "2026-08-11T15:23:59.171Z",
+    "updatedAt": "2026-08-11T15:23:59.171Z",
+    "views": 5295
+  },
+  {
+    "id": "job_0005",
+    "slug": "ibps-probationary-officer-po-recruitment-2026-institute-of-banking-personnel-selection",
+    "title": "IBPS Probationary Officer (PO) Recruitment 2026",
+    "organization": "Institute of Banking Personnel Selection",
+    "department": "Public Sector Banks",
+    "advertisementNumber": "IBPS-PO/2026/13",
+    "logoUrl": "",
+    "totalVacancies": 3489,
+    "vacancyBreakdown": [
+      {
+        "post": "Probationary Officer",
+        "category": "Open: 1400, OBC: 780, SC: 520, ST: 260, EWS: 350",
+        "count": 3489
+      }
+    ],
+    "location": {
+      "state": "All India",
+      "allIndia": true
+    },
+    "eligibility": {
+      "genders": [
+        "male",
+        "female"
+      ],
+      "categories": [
+        "open",
+        "obc",
+        "sc",
+        "st",
+        "ews"
+      ],
+      "qualifications": [
+        "graduate",
+        "any_graduate"
+      ],
+      "minAge": 20,
+      "maxAge": 30
+    },
+    "jobType": "government",
+    "salary": "₹48,480 – ₹85,920",
+    "applicationFee": "₹850 (Gen/OBC/EWS), ₹175 (SC/ST/PwBD)",
+    "dates": {
+      "startDate": "2026-08-24",
+      "lastDate": "2026-09-20",
+      "examDate": "2026-10-20"
+    },
+    "links": {
+      "applyOnline": "https://example.gov.in/apply",
+      "officialNotification": "https://example.gov.in/notification.pdf",
+      "officialWebsite": "https://example.gov.in"
+    },
+    "content": {
+      "eligibility": "<p>Candidates must fulfil the eligibility criteria for <strong>IBPS Probationary Officer (PO) Recruitment 2026</strong> as prescribed by Institute of Banking Personnel Selection. Please read the official notification carefully before applying.</p>",
+      "vacancyDetails": "<p>Total <strong>3,489</strong> vacancies are to be filled under this recruitment drive. Post-wise and category-wise break-up is given in the table above.</p>",
+      "selectionProcess": "<ol><li>Online Application</li><li>Written / Computer Based Test</li><li>Physical Standard &amp; Efficiency Test (if applicable)</li><li>Document Verification</li><li>Medical Examination</li><li>Final Merit List</li></ol>",
+      "howToApply": "<p>Eligible candidates may apply online through the official website before the last date. Keep scanned copies of photograph, signature and certificates ready before starting the application.</p>",
+      "importantInstructions": "<ul><li>Read the official notification carefully before applying.</li><li>Ensure you meet the age and qualification criteria on the prescribed date.</li><li>Application fee once paid is non-refundable.</li><li>Keep a printout of the submitted application for future reference.</li></ul>"
+    },
+    "seo": {
+      "title": "IBPS Probationary Officer (PO) Recruitment 2026 | Apply Online, Eligibility, Last Date",
+      "metaDescription": "IBPS Probationary Officer (PO) Recruitment 2026 - 3,489 vacancies. Check eligibility, qualification, age limit, application fee and last date to apply online."
+    },
+    "featured": false,
+    "status": "published",
+    "publishAt": null,
+    "createdAt": "2026-08-24T15:23:59.172Z",
+    "updatedAt": "2026-08-24T15:23:59.172Z",
+    "views": 2718
+  },
+  {
+    "id": "job_0006",
+    "slug": "tata-consultancy-services-graduate-trainee-hiring-2026-tata-consultancy-services-tcs",
+    "title": "Tata Consultancy Services - Graduate Trainee Hiring 2026",
+    "organization": "Tata Consultancy Services (TCS)",
+    "department": "Corporate Recruitment",
+    "advertisementNumber": "TCS-NQT/2026/06",
+    "logoUrl": "",
+    "totalVacancies": 2500,
+    "vacancyBreakdown": [
+      {
+        "post": "Assistant System Engineer",
+        "category": "Open to all candidates",
+        "count": 2500
+      }
+    ],
+    "location": {
+      "state": "Maharashtra",
+      "district": "Mumbai",
+      "allIndia": false
+    },
+    "eligibility": {
+      "genders": [
+        "male",
+        "female"
+      ],
+      "categories": [
+        "open",
+        "obc",
+        "sc",
+        "st",
+        "ews"
+      ],
+      "qualifications": [
+        "engineering",
+        "graduate"
+      ],
+      "minAge": 21,
+      "maxAge": 27
+    },
+    "jobType": "private",
+    "salary": "₹3.36 – 7 LPA",
+    "applicationFee": "Nil",
+    "dates": {
+      "startDate": "2026-08-18",
+      "lastDate": "2026-09-13"
+    },
+    "links": {
+      "applyOnline": "https://example.gov.in/apply",
+      "officialNotification": "https://example.gov.in/notification.pdf",
+      "officialWebsite": "https://example.gov.in"
+    },
+    "content": {
+      "eligibility": "<p>Candidates must fulfil the eligibility criteria for <strong>Tata Consultancy Services - Graduate Trainee Hiring 2026</strong> as prescribed by Tata Consultancy Services (TCS). Please read the official notification carefully before applying.</p>",
+      "vacancyDetails": "<p>Total <strong>2,500</strong> vacancies are to be filled under this recruitment drive. Post-wise and category-wise break-up is given in the table above.</p>",
+      "selectionProcess": "<ol><li>Online Application</li><li>Written / Computer Based Test</li><li>Physical Standard &amp; Efficiency Test (if applicable)</li><li>Document Verification</li><li>Medical Examination</li><li>Final Merit List</li></ol>",
+      "howToApply": "<p>Eligible candidates may apply online through the official website before the last date. Keep scanned copies of photograph, signature and certificates ready before starting the application.</p>",
+      "importantInstructions": "<ul><li>Read the official notification carefully before applying.</li><li>Ensure you meet the age and qualification criteria on the prescribed date.</li><li>Application fee once paid is non-refundable.</li><li>Keep a printout of the submitted application for future reference.</li></ul>"
+    },
+    "seo": {
+      "title": "Tata Consultancy Services - Graduate Trainee Hiring 2026 | Apply Online, Eligibility, Last Date",
+      "metaDescription": "Tata Consultancy Services - Graduate Trainee Hiring 2026 - 2,500 vacancies. Check eligibility, qualification, age limit, application fee and last date to apply online."
+    },
+    "featured": true,
+    "status": "published",
+    "publishAt": null,
+    "createdAt": "2026-08-18T15:23:59.172Z",
+    "updatedAt": "2026-08-18T15:23:59.172Z",
+    "views": 7577
+  },
+  {
+    "id": "job_0007",
+    "slug": "maharashtra-state-public-service-commission-civil-judge-2026-maharashtra-public-service-commission-mpsc",
+    "title": "Maharashtra State Public Service Commission - Civil Judge 2026",
+    "organization": "Maharashtra Public Service Commission (MPSC)",
+    "department": "Law & Judiciary Department",
+    "advertisementNumber": "MPSC/JUD/2026/02",
+    "logoUrl": "",
+    "totalVacancies": 118,
+    "vacancyBreakdown": [
+      {
+        "post": "Civil Judge Junior Division",
+        "category": "Open: 48, OBC: 27, SC: 16, ST: 12, EWS: 15",
+        "count": 118
+      }
+    ],
+    "location": {
+      "state": "Maharashtra",
+      "allIndia": false
+    },
+    "eligibility": {
+      "genders": [
+        "male",
+        "female"
+      ],
+      "categories": [
+        "open",
+        "obc",
+        "sc",
+        "st",
+        "ews"
+      ],
+      "qualifications": [
+        "law"
+      ],
+      "minAge": 21,
+      "maxAge": 35
+    },
+    "jobType": "government",
+    "salary": "₹77,840 – ₹1,36,520",
+    "applicationFee": "₹600",
+    "dates": {
+      "startDate": "2026-07-27",
+      "lastDate": "2026-08-24"
+    },
+    "links": {
+      "applyOnline": "https://example.gov.in/apply",
+      "officialNotification": "https://example.gov.in/notification.pdf",
+      "officialWebsite": "https://example.gov.in"
+    },
+    "content": {
+      "eligibility": "<p>Candidates must fulfil the eligibility criteria for <strong>Maharashtra State Public Service Commission - Civil Judge 2026</strong> as prescribed by Maharashtra Public Service Commission (MPSC). Please read the official notification carefully before applying.</p>",
+      "vacancyDetails": "<p>Total <strong>118</strong> vacancies are to be filled under this recruitment drive. Post-wise and category-wise break-up is given in the table above.</p>",
+      "selectionProcess": "<ol><li>Online Application</li><li>Written / Computer Based Test</li><li>Physical Standard &amp; Efficiency Test (if applicable)</li><li>Document Verification</li><li>Medical Examination</li><li>Final Merit List</li></ol>",
+      "howToApply": "<p>Eligible candidates may apply online through the official website before the last date. Keep scanned copies of photograph, signature and certificates ready before starting the application.</p>",
+      "importantInstructions": "<ul><li>Read the official notification carefully before applying.</li><li>Ensure you meet the age and qualification criteria on the prescribed date.</li><li>Application fee once paid is non-refundable.</li><li>Keep a printout of the submitted application for future reference.</li></ul>"
+    },
+    "seo": {
+      "title": "Maharashtra State Public Service Commission - Civil Judge 2026 | Apply Online, Eligibility, Last Date",
+      "metaDescription": "Maharashtra State Public Service Commission - Civil Judge 2026 - 118 vacancies. Check eligibility, qualification, age limit, application fee and last date to apply online."
+    },
+    "featured": false,
+    "status": "published",
+    "publishAt": null,
+    "createdAt": "2026-07-27T15:23:59.172Z",
+    "updatedAt": "2026-07-27T15:23:59.172Z",
+    "views": 482
+  },
+  {
+    "id": "job_0008",
+    "slug": "aiims-nursing-officer-recruitment-2026-all-india-institute-of-medical-sciences",
+    "title": "AIIMS Nursing Officer Recruitment 2026",
+    "organization": "All India Institute of Medical Sciences",
+    "department": "Ministry of Health & Family Welfare",
+    "advertisementNumber": "AIIMS/NURSE/2026/09",
+    "logoUrl": "",
+    "totalVacancies": 964,
+    "vacancyBreakdown": [
+      {
+        "post": "Nursing Officer",
+        "category": "Open: 390, OBC: 220, SC: 130, ST: 80, EWS: 144",
+        "count": 964
+      }
+    ],
+    "location": {
+      "state": "All India",
+      "allIndia": true
+    },
+    "eligibility": {
+      "genders": [
+        "male",
+        "female"
+      ],
+      "categories": [
+        "open",
+        "obc",
+        "sc",
+        "st",
+        "ews"
+      ],
+      "qualifications": [
+        "medical",
+        "graduate"
+      ],
+      "minAge": 21,
+      "maxAge": 30
+    },
+    "jobType": "government",
+    "salary": "₹44,900 – ₹1,42,400",
+    "applicationFee": "₹1500 (Gen/OBC/EWS), ₹1200 (SC/ST)",
+    "dates": {
+      "startDate": "2026-08-20",
+      "lastDate": "2026-09-04"
+    },
+    "links": {
+      "applyOnline": "https://example.gov.in/apply",
+      "officialNotification": "https://example.gov.in/notification.pdf",
+      "officialWebsite": "https://example.gov.in"
+    },
+    "content": {
+      "eligibility": "<p>Candidates must fulfil the eligibility criteria for <strong>AIIMS Nursing Officer Recruitment 2026</strong> as prescribed by All India Institute of Medical Sciences. Please read the official notification carefully before applying.</p>",
+      "vacancyDetails": "<p>Total <strong>964</strong> vacancies are to be filled under this recruitment drive. Post-wise and category-wise break-up is given in the table above.</p>",
+      "selectionProcess": "<ol><li>Online Application</li><li>Written / Computer Based Test</li><li>Physical Standard &amp; Efficiency Test (if applicable)</li><li>Document Verification</li><li>Medical Examination</li><li>Final Merit List</li></ol>",
+      "howToApply": "<p>Eligible candidates may apply online through the official website before the last date. Keep scanned copies of photograph, signature and certificates ready before starting the application.</p>",
+      "importantInstructions": "<ul><li>Read the official notification carefully before applying.</li><li>Ensure you meet the age and qualification criteria on the prescribed date.</li><li>Application fee once paid is non-refundable.</li><li>Keep a printout of the submitted application for future reference.</li></ul>"
+    },
+    "seo": {
+      "title": "AIIMS Nursing Officer Recruitment 2026 | Apply Online, Eligibility, Last Date",
+      "metaDescription": "AIIMS Nursing Officer Recruitment 2026 - 964 vacancies. Check eligibility, qualification, age limit, application fee and last date to apply online."
+    },
+    "featured": false,
+    "status": "published",
+    "publishAt": null,
+    "createdAt": "2026-08-20T15:23:59.172Z",
+    "updatedAt": "2026-08-20T15:23:59.172Z",
+    "views": 1909
+  },
+  {
+    "id": "job_0009",
+    "slug": "nagpur-municipal-corporation-junior-clerk-bharti-2026-nagpur-municipal-corporation",
+    "title": "Nagpur Municipal Corporation - Junior Clerk Bharti 2026",
+    "organization": "Nagpur Municipal Corporation",
+    "department": "General Administration",
+    "advertisementNumber": "NMC/GAD/2026/11",
+    "logoUrl": "",
+    "totalVacancies": 62,
+    "vacancyBreakdown": [
+      {
+        "post": "Junior Clerk",
+        "category": "Open: 25, OBC: 14, SC: 9, ST: 7, EWS: 7",
+        "count": 62
+      }
+    ],
+    "location": {
+      "state": "Maharashtra",
+      "district": "Nagpur",
+      "allIndia": false
+    },
+    "eligibility": {
+      "genders": [
+        "male",
+        "female"
+      ],
+      "categories": [
+        "open",
+        "obc",
+        "sc",
+        "st",
+        "ews"
+      ],
+      "qualifications": [
+        "12th",
+        "graduate"
+      ],
+      "minAge": 18,
+      "maxAge": 38
+    },
+    "jobType": "government",
+    "salary": "₹19,900 – ₹63,200",
+    "applicationFee": "₹300",
+    "dates": {
+      "startDate": "2026-08-25",
+      "lastDate": "2026-08-26"
+    },
+    "links": {
+      "applyOnline": "https://example.gov.in/apply",
+      "officialNotification": "https://example.gov.in/notification.pdf",
+      "officialWebsite": "https://example.gov.in"
+    },
+    "content": {
+      "eligibility": "<p>Candidates must fulfil the eligibility criteria for <strong>Nagpur Municipal Corporation - Junior Clerk Bharti 2026</strong> as prescribed by Nagpur Municipal Corporation. Please read the official notification carefully before applying.</p>",
+      "vacancyDetails": "<p>Total <strong>62</strong> vacancies are to be filled under this recruitment drive. Post-wise and category-wise break-up is given in the table above.</p>",
+      "selectionProcess": "<ol><li>Online Application</li><li>Written / Computer Based Test</li><li>Physical Standard &amp; Efficiency Test (if applicable)</li><li>Document Verification</li><li>Medical Examination</li><li>Final Merit List</li></ol>",
+      "howToApply": "<p>Eligible candidates may apply online through the official website before the last date. Keep scanned copies of photograph, signature and certificates ready before starting the application.</p>",
+      "importantInstructions": "<ul><li>Read the official notification carefully before applying.</li><li>Ensure you meet the age and qualification criteria on the prescribed date.</li><li>Application fee once paid is non-refundable.</li><li>Keep a printout of the submitted application for future reference.</li></ul>"
+    },
+    "seo": {
+      "title": "Nagpur Municipal Corporation - Junior Clerk Bharti 2026 | Apply Online, Eligibility, Last Date",
+      "metaDescription": "Nagpur Municipal Corporation - Junior Clerk Bharti 2026 - 62 vacancies. Check eligibility, qualification, age limit, application fee and last date to apply online."
+    },
+    "featured": false,
+    "status": "published",
+    "publishAt": null,
+    "createdAt": "2026-08-25T15:23:59.172Z",
+    "updatedAt": "2026-08-25T15:23:59.172Z",
+    "views": 4583
+  },
+  {
+    "id": "job_0010",
+    "slug": "reliance-retail-store-associate-internship-program-2026-reliance-retail-ltd",
+    "title": "Reliance Retail - Store Associate Internship Program 2026",
+    "organization": "Reliance Retail Ltd.",
+    "department": "Retail Operations",
+    "advertisementNumber": "RRL/INTERN/2026/22",
+    "logoUrl": "",
+    "totalVacancies": 800,
+    "vacancyBreakdown": [
+      {
+        "post": "Store Associate Intern",
+        "category": "Open to all candidates",
+        "count": 800
+      }
+    ],
+    "location": {
+      "state": "Maharashtra",
+      "district": "Pune",
+      "allIndia": false
+    },
+    "eligibility": {
+      "genders": [
+        "male",
+        "female"
+      ],
+      "categories": [
+        "open",
+        "obc",
+        "sc",
+        "st",
+        "ews"
+      ],
+      "qualifications": [
+        "10th",
+        "12th",
+        "any_graduate"
+      ],
+      "minAge": 18,
+      "maxAge": 26
+    },
+    "jobType": "internship",
+    "salary": "₹12,000 per month stipend",
+    "applicationFee": "Nil",
+    "dates": {
+      "startDate": "2026-08-23",
+      "lastDate": "2026-09-10"
+    },
+    "links": {
+      "applyOnline": "https://example.gov.in/apply",
+      "officialNotification": "https://example.gov.in/notification.pdf",
+      "officialWebsite": "https://example.gov.in"
+    },
+    "content": {
+      "eligibility": "<p>Candidates must fulfil the eligibility criteria for <strong>Reliance Retail - Store Associate Internship Program 2026</strong> as prescribed by Reliance Retail Ltd.. Please read the official notification carefully before applying.</p>",
+      "vacancyDetails": "<p>Total <strong>800</strong> vacancies are to be filled under this recruitment drive. Post-wise and category-wise break-up is given in the table above.</p>",
+      "selectionProcess": "<ol><li>Online Application</li><li>Written / Computer Based Test</li><li>Physical Standard &amp; Efficiency Test (if applicable)</li><li>Document Verification</li><li>Medical Examination</li><li>Final Merit List</li></ol>",
+      "howToApply": "<p>Eligible candidates may apply online through the official website before the last date. Keep scanned copies of photograph, signature and certificates ready before starting the application.</p>",
+      "importantInstructions": "<ul><li>Read the official notification carefully before applying.</li><li>Ensure you meet the age and qualification criteria on the prescribed date.</li><li>Application fee once paid is non-refundable.</li><li>Keep a printout of the submitted application for future reference.</li></ul>"
+    },
+    "seo": {
+      "title": "Reliance Retail - Store Associate Internship Program 2026 | Apply Online, Eligibility, Last Date",
+      "metaDescription": "Reliance Retail - Store Associate Internship Program 2026 - 800 vacancies. Check eligibility, qualification, age limit, application fee and last date to apply online."
+    },
+    "featured": false,
+    "status": "published",
+    "publishAt": null,
+    "createdAt": "2026-08-23T15:23:59.172Z",
+    "updatedAt": "2026-08-23T15:23:59.172Z",
+    "views": 1368
+  },
+  {
+    "id": "job_0011",
+    "slug": "indian-railways-rrb-group-d-recruitment-2026-railway-recruitment-board",
+    "title": "Indian Railways RRB Group D Recruitment 2026",
+    "organization": "Railway Recruitment Board",
+    "department": "Ministry of Railways, Government of India",
+    "advertisementNumber": "RRB/GRP-D/2026/04",
+    "logoUrl": "",
+    "totalVacancies": 32438,
+    "vacancyBreakdown": [
+      {
+        "post": "Track Maintainer / Helper / Porter",
+        "category": "Open: 13000, OBC: 7300, SC: 4800, ST: 2400, EWS: 3200",
+        "count": 32438
+      }
+    ],
+    "location": {
+      "state": "All India",
+      "allIndia": true
+    },
+    "eligibility": {
+      "genders": [
+        "male",
+        "female"
+      ],
+      "categories": [
+        "open",
+        "obc",
+        "sc",
+        "st",
+        "ews"
+      ],
+      "qualifications": [
+        "10th",
+        "iti"
+      ],
+      "minAge": 18,
+      "maxAge": 33
+    },
+    "jobType": "government",
+    "salary": "₹18,000 (Pay Level 1)",
+    "applicationFee": "₹500 (Gen/OBC), ₹250 (SC/ST/EWS/Female refundable on appearing)",
+    "dates": {
+      "startDate": "2026-08-01",
+      "lastDate": "2026-09-25"
+    },
+    "links": {
+      "applyOnline": "https://example.gov.in/apply",
+      "officialNotification": "https://example.gov.in/notification.pdf",
+      "officialWebsite": "https://example.gov.in"
+    },
+    "content": {
+      "eligibility": "<p>Candidates must fulfil the eligibility criteria for <strong>Indian Railways RRB Group D Recruitment 2026</strong> as prescribed by Railway Recruitment Board. Please read the official notification carefully before applying.</p>",
+      "vacancyDetails": "<p>Total <strong>32,438</strong> vacancies are to be filled under this recruitment drive. Post-wise and category-wise break-up is given in the table above.</p>",
+      "selectionProcess": "<ol><li>Online Application</li><li>Written / Computer Based Test</li><li>Physical Standard &amp; Efficiency Test (if applicable)</li><li>Document Verification</li><li>Medical Examination</li><li>Final Merit List</li></ol>",
+      "howToApply": "<p>Eligible candidates may apply online through the official website before the last date. Keep scanned copies of photograph, signature and certificates ready before starting the application.</p>",
+      "importantInstructions": "<ul><li>Read the official notification carefully before applying.</li><li>Ensure you meet the age and qualification criteria on the prescribed date.</li><li>Application fee once paid is non-refundable.</li><li>Keep a printout of the submitted application for future reference.</li></ul>"
+    },
+    "seo": {
+      "title": "Indian Railways RRB Group D Recruitment 2026 | Apply Online, Eligibility, Last Date",
+      "metaDescription": "Indian Railways RRB Group D Recruitment 2026 - 32,438 vacancies. Check eligibility, qualification, age limit, application fee and last date to apply online."
+    },
+    "featured": true,
+    "status": "published",
+    "publishAt": null,
+    "createdAt": "2026-08-01T15:23:59.172Z",
+    "updatedAt": "2026-08-01T15:23:59.172Z",
+    "views": 4730
+  },
+  {
+    "id": "job_0012",
+    "slug": "lt-construction-site-engineer-diploma-contract-hiring-2026-larsen-toubro-construction",
+    "title": "L&T Construction - Site Engineer (Diploma) Contract Hiring 2026",
+    "organization": "Larsen & Toubro Construction",
+    "department": "Infrastructure Projects",
+    "advertisementNumber": "LNT/CIVIL/2026/17",
+    "logoUrl": "",
+    "totalVacancies": 210,
+    "vacancyBreakdown": [
+      {
+        "post": "Site Engineer (Civil)",
+        "category": "Open to all candidates",
+        "count": 210
+      }
+    ],
+    "location": {
+      "state": "Maharashtra",
+      "district": "Nashik",
+      "allIndia": false
+    },
+    "eligibility": {
+      "genders": [
+        "male",
+        "female"
+      ],
+      "categories": [
+        "open",
+        "obc",
+        "sc",
+        "st",
+        "ews"
+      ],
+      "qualifications": [
+        "diploma",
+        "engineering"
+      ],
+      "minAge": 20,
+      "maxAge": 32
+    },
+    "jobType": "contract",
+    "salary": "₹22,000 – ₹30,000 per month",
+    "applicationFee": "Nil",
+    "dates": {
+      "startDate": "2026-08-22",
+      "lastDate": "2026-08-28"
+    },
+    "links": {
+      "applyOnline": "https://example.gov.in/apply",
+      "officialNotification": "https://example.gov.in/notification.pdf",
+      "officialWebsite": "https://example.gov.in"
+    },
+    "content": {
+      "eligibility": "<p>Candidates must fulfil the eligibility criteria for <strong>L&T Construction - Site Engineer (Diploma) Contract Hiring 2026</strong> as prescribed by Larsen & Toubro Construction. Please read the official notification carefully before applying.</p>",
+      "vacancyDetails": "<p>Total <strong>210</strong> vacancies are to be filled under this recruitment drive. Post-wise and category-wise break-up is given in the table above.</p>",
+      "selectionProcess": "<ol><li>Online Application</li><li>Written / Computer Based Test</li><li>Physical Standard &amp; Efficiency Test (if applicable)</li><li>Document Verification</li><li>Medical Examination</li><li>Final Merit List</li></ol>",
+      "howToApply": "<p>Eligible candidates may apply online through the official website before the last date. Keep scanned copies of photograph, signature and certificates ready before starting the application.</p>",
+      "importantInstructions": "<ul><li>Read the official notification carefully before applying.</li><li>Ensure you meet the age and qualification criteria on the prescribed date.</li><li>Application fee once paid is non-refundable.</li><li>Keep a printout of the submitted application for future reference.</li></ul>"
+    },
+    "seo": {
+      "title": "L&T Construction - Site Engineer (Diploma) Contract Hiring 2026 | Apply Online, Eligibility, Last Date",
+      "metaDescription": "L&T Construction - Site Engineer (Diploma) Contract Hiring 2026 - 210 vacancies. Check eligibility, qualification, age limit, application fee and last date to apply online."
+    },
+    "featured": false,
+    "status": "published",
+    "publishAt": null,
+    "createdAt": "2026-08-22T15:23:59.172Z",
+    "updatedAt": "2026-08-22T15:23:59.172Z",
+    "views": 434
+  },
+  {
+    "id": "job_0013",
+    "slug": "maharashtra-forest-department-forest-guard-recruitment-2027-draft-maharashtra-forest-department",
+    "title": "Maharashtra Forest Department - Forest Guard Recruitment 2027 (Draft)",
+    "organization": "Maharashtra Forest Department",
+    "department": "Ministry of Environment & Forests",
+    "advertisementNumber": "MFD/2027/DRAFT",
+    "logoUrl": "",
+    "totalVacancies": 900,
+    "vacancyBreakdown": [
+      {
+        "post": "Forest Guard",
+        "category": "Open: 360, OBC: 200, SC: 130, ST: 110, EWS: 100",
+        "count": 900
+      }
+    ],
+    "location": {
+      "state": "Maharashtra",
+      "allIndia": false
+    },
+    "eligibility": {
+      "genders": [
+        "male",
+        "female"
+      ],
+      "categories": [
+        "open",
+        "obc",
+        "sc",
+        "st",
+        "ews"
+      ],
+      "qualifications": [
+        "12th"
+      ],
+      "minAge": 18,
+      "maxAge": 28
+    },
+    "jobType": "government",
+    "salary": "₹21,700 – ₹69,100",
+    "applicationFee": "₹400",
+    "dates": {
+      "startDate": "2026-09-15",
+      "lastDate": "2026-10-15"
+    },
+    "links": {
+      "applyOnline": "https://example.gov.in/apply",
+      "officialNotification": "https://example.gov.in/notification.pdf",
+      "officialWebsite": "https://example.gov.in"
+    },
+    "content": {
+      "eligibility": "<p>Candidates must fulfil the eligibility criteria for <strong>Maharashtra Forest Department - Forest Guard Recruitment 2027 (Draft)</strong> as prescribed by Maharashtra Forest Department. Please read the official notification carefully before applying.</p>",
+      "vacancyDetails": "<p>Total <strong>900</strong> vacancies are to be filled under this recruitment drive. Post-wise and category-wise break-up is given in the table above.</p>",
+      "selectionProcess": "<ol><li>Online Application</li><li>Written / Computer Based Test</li><li>Physical Standard &amp; Efficiency Test (if applicable)</li><li>Document Verification</li><li>Medical Examination</li><li>Final Merit List</li></ol>",
+      "howToApply": "<p>Eligible candidates may apply online through the official website before the last date. Keep scanned copies of photograph, signature and certificates ready before starting the application.</p>",
+      "importantInstructions": "<ul><li>Read the official notification carefully before applying.</li><li>Ensure you meet the age and qualification criteria on the prescribed date.</li><li>Application fee once paid is non-refundable.</li><li>Keep a printout of the submitted application for future reference.</li></ul>"
+    },
+    "seo": {
+      "title": "Maharashtra Forest Department - Forest Guard Recruitment 2027 (Draft) | Apply Online, Eligibility, Last Date",
+      "metaDescription": "Maharashtra Forest Department - Forest Guard Recruitment 2027 (Draft) - 900 vacancies. Check eligibility, qualification, age limit, application fee and last date to apply online."
+    },
+    "featured": false,
+    "status": "draft",
+    "publishAt": null,
+    "createdAt": "2026-08-26T15:23:59.172Z",
+    "updatedAt": "2026-08-26T15:23:59.172Z",
+    "views": 3623
+  },
+  {
+    "id": "job_0014",
+    "slug": "bank-of-baroda-specialist-officer-it-recruitment-2026-bank-of-baroda",
+    "title": "Bank of Baroda - Specialist Officer (IT) Recruitment 2026",
+    "organization": "Bank of Baroda",
+    "department": "Human Resources Division",
+    "advertisementNumber": "BOB/SO-IT/2026/08",
+    "logoUrl": "",
+    "totalVacancies": 180,
+    "vacancyBreakdown": [
+      {
+        "post": "IT Specialist Officer",
+        "category": "Open: 72, OBC: 40, SC: 26, ST: 14, EWS: 28",
+        "count": 180
+      }
+    ],
+    "location": {
+      "state": "All India",
+      "allIndia": true
+    },
+    "eligibility": {
+      "genders": [
+        "male",
+        "female"
+      ],
+      "categories": [
+        "open",
+        "obc",
+        "sc",
+        "st",
+        "ews"
+      ],
+      "qualifications": [
+        "engineering",
+        "post_graduate"
+      ],
+      "minAge": 22,
+      "maxAge": 35
+    },
+    "jobType": "government",
+    "salary": "₹64,820 – ₹93,960",
+    "applicationFee": "₹850 (Gen/OBC/EWS), ₹175 (SC/ST)",
+    "dates": {
+      "startDate": "2026-08-25",
+      "lastDate": "2026-08-27"
+    },
+    "links": {
+      "applyOnline": "https://example.gov.in/apply",
+      "officialNotification": "https://example.gov.in/notification.pdf",
+      "officialWebsite": "https://example.gov.in"
+    },
+    "content": {
+      "eligibility": "<p>Candidates must fulfil the eligibility criteria for <strong>Bank of Baroda - Specialist Officer (IT) Recruitment 2026</strong> as prescribed by Bank of Baroda. Please read the official notification carefully before applying.</p>",
+      "vacancyDetails": "<p>Total <strong>180</strong> vacancies are to be filled under this recruitment drive. Post-wise and category-wise break-up is given in the table above.</p>",
+      "selectionProcess": "<ol><li>Online Application</li><li>Written / Computer Based Test</li><li>Physical Standard &amp; Efficiency Test (if applicable)</li><li>Document Verification</li><li>Medical Examination</li><li>Final Merit List</li></ol>",
+      "howToApply": "<p>Eligible candidates may apply online through the official website before the last date. Keep scanned copies of photograph, signature and certificates ready before starting the application.</p>",
+      "importantInstructions": "<ul><li>Read the official notification carefully before applying.</li><li>Ensure you meet the age and qualification criteria on the prescribed date.</li><li>Application fee once paid is non-refundable.</li><li>Keep a printout of the submitted application for future reference.</li></ul>"
+    },
+    "seo": {
+      "title": "Bank of Baroda - Specialist Officer (IT) Recruitment 2026 | Apply Online, Eligibility, Last Date",
+      "metaDescription": "Bank of Baroda - Specialist Officer (IT) Recruitment 2026 - 180 vacancies. Check eligibility, qualification, age limit, application fee and last date to apply online."
+    },
+    "featured": false,
+    "status": "published",
+    "publishAt": null,
+    "createdAt": "2026-08-25T15:23:59.172Z",
+    "updatedAt": "2026-08-25T15:23:59.172Z",
+    "views": 2859
+  }
+]
