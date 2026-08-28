@@ -2,8 +2,8 @@
 
 import { redirect } from "next/navigation";
 import { revalidatePath } from "next/cache";
+import mongoose from "mongoose";
 import { createSession, destroySession, verifyCredentials } from "./auth";
-import { createJob, deleteJob, getJobById, updateJob } from "./db";
 import type {
   Category,
   Gender,
@@ -13,6 +13,49 @@ import type {
   Qualification,
   VacancyRow,
 } from "./types";
+
+const MONGODB_URI = process.env.MONGODB_URI;
+
+async function connectDB() {
+  if (mongoose.connection.readyState >= 1) return;
+  if (!MONGODB_URI) throw new Error("Please define the MONGODB_URI environment variable");
+  await mongoose.connect(MONGODB_URI);
+}
+
+const JobSchema = new mongoose.Schema({
+  title: String,
+  organization: String,
+  department: String,
+  advertisementNumber: String,
+  logoUrl: String,
+  slug: { type: String, unique: true, sparse: true },
+  totalVacancies: Number,
+  vacancyBreakdown: Array,
+  location: Object,
+  eligibility: Object,
+  jobType: String,
+  salary: String,
+  applicationFee: String,
+  dates: Object,
+  links: Object,
+  content: Object,
+  seo: Object,
+  featured: Boolean,
+  status: String,
+  publishAt: String,
+  views: { type: Number, default: 0 },
+  createdAt: { type: Date, default: Date.now },
+  updatedAt: { type: Date, default: Date.now }
+});
+
+const Job = mongoose.models.Job || mongoose.model("Job", JobSchema);
+
+function generateSlug(title: string): string {
+  return title
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/(^-|-$)+/g, "") + "-" + Math.floor(1000 + Math.random() * 9000);
+}
 
 export async function loginAction(formData: FormData) {
   const username = String(formData.get("username") || "");
@@ -66,8 +109,10 @@ function buildJobFromForm(formData: FormData) {
   if (publishMode === "draft") status = "draft";
   else if (publishMode === "schedule") status = "scheduled";
 
-  const job: Omit<JobPosting, "id" | "slug" | "createdAt" | "updatedAt" | "views"> = {
-    title: String(formData.get("title") || ""),
+  const title = String(formData.get("title") || "");
+
+  return {
+    title,
     organization: String(formData.get("organization") || ""),
     department: String(formData.get("department") || ""),
     advertisementNumber: String(formData.get("advertisementNumber") || ""),
@@ -118,22 +163,27 @@ function buildJobFromForm(formData: FormData) {
         ? new Date(String(formData.get("publishAt"))).toISOString()
         : undefined,
   };
-
-  return job;
 }
 
 export async function createJobAction(formData: FormData) {
-  const job = buildJobFromForm(formData);
-  const created = createJob(job);
+  await connectDB();
+  const jobData = buildJobFromForm(formData);
+  const slug = generateSlug(jobData.title);
+  // @ts-ignore
+  const created = await Job.create({ ...jobData, slug, views: 0, createdAt: new Date() });
+  
   revalidatePath("/admin/jobs");
   revalidatePath("/jobs");
   revalidatePath("/");
-  redirect(`/admin/jobs?created=${created.slug}`);
+  redirect(`/admin/jobs?created=${slug}`);
 }
 
 export async function updateJobAction(id: string, formData: FormData) {
-  const job = buildJobFromForm(formData);
-  updateJob(id, job);
+  await connectDB();
+  const jobData = buildJobFromForm(formData);
+  // @ts-ignore
+  await Job.findByIdAndUpdate(id, { ...jobData, updatedAt: new Date() });
+
   revalidatePath("/admin/jobs");
   revalidatePath("/jobs");
   revalidatePath("/");
@@ -141,28 +191,39 @@ export async function updateJobAction(id: string, formData: FormData) {
 }
 
 export async function deleteJobAction(formData: FormData) {
+  await connectDB();
   const id = String(formData.get("id") || "");
-  if (id) deleteJob(id);
+  if (id) {
+    // @ts-ignore
+    await Job.findByIdAndDelete(id);
+  }
   revalidatePath("/admin/jobs");
   revalidatePath("/jobs");
   revalidatePath("/");
 }
 
 export async function toggleFeaturedAction(formData: FormData) {
+  await connectDB();
   const id = String(formData.get("id") || "");
-  const job = getJobById(id);
-  if (job) updateJob(id, { featured: !job.featured });
+  // @ts-ignore
+  const job = await Job.findById(id);
+  if (job) {
+    // @ts-ignore
+    await Job.findByIdAndUpdate(id, { featured: !job.featured });
+  }
   revalidatePath("/admin/jobs");
   revalidatePath("/");
 }
 
 export async function toggleExpiredAction(formData: FormData) {
+  await connectDB();
   const id = String(formData.get("id") || "");
-  const job = getJobById(id);
+  // @ts-ignore
+  const job = await Job.findById(id);
   if (job) {
-    updateJob(id, {
-      status: job.status === "expired" ? "published" : "expired",
-    });
+    const newStatus = job.status === "expired" ? "published" : "expired";
+    // @ts-ignore
+    await Job.findByIdAndUpdate(id, { status: newStatus });
   }
   revalidatePath("/admin/jobs");
   revalidatePath("/jobs");
